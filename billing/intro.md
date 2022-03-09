@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: ./tutorial-basic
+slug: ./
 ---
 
 # Tutorial Intro (Billing)
