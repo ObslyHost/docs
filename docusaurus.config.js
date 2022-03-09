@@ -59,16 +59,14 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/billing',
             position: 'left',
-            label: 'Panel',
+            label: 'Billing',
           },
           {
-            type: 'doc',
-            docId: 'intro',
+            to:'/docs/panel',
             position: 'left',
-            label: 'Facturación',
+            label: 'Panel',
           },
         ],
       },
