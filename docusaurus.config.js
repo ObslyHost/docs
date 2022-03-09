@@ -124,16 +124,24 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
     i18n: {
       defaultLocale: 'es',
       locales: ['es', 'en'],
       localeConfigs: {
         es: {
+          label: 'Español',
+          direction: 'ltr',
           htmlLang: 'es-ES',
+        },
+        en: {
+          label: 'English',
+          direction: 'ltr',
+          htmlLang: 'en-US',
         },
       },
     },
-  
+    
   };
 
 module.exports = config;
