@@ -18,36 +18,31 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // id: 'product', // omitted => default instance
+          path: 'billing',
+          routeBasePath: 'billing',
+          sidebarPath: require.resolve('./sidebarsBilling.js'),
+          // ... other options
         },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'gameservers',
+        path: 'gameservers',
+        routeBasePath: 'gameservers',
+        sidebarPath: require.resolve('./sidebarsGameservers.js'),
+        // ... other options
+      },
     ],
   ],
   
-  i18n: {
-    defaultLocale: 'es-ES',
-    locales: ['es-ES', 'en-EN'],
-    localeConfigs: {
-      'es-ES': {
-        label: 'Español',
-        direction: 'ltr',
-      },
-      'en-EN': {
-        label: 'English',
-        direction: 'ltr',
-      },
-    },
-  },
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -59,16 +54,61 @@ const config = {
         },
         items: [
           {
-            to: '/docs/billing',
+            to: '/billing',
             position: 'left',
             label: 'Billing',
           },
           {
-            to:'/docs/panel',
+            to:'/gameservers',
             position: 'left',
-            label: 'Panel',
+            label: 'Gameservers',
           },
         ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

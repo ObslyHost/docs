@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-slug: /billing
+slug: /
 ---
 
-# Tutorial Intro (Billing)
+# Tutorial Intro (Panel)
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
