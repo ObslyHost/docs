@@ -63,6 +63,10 @@ const config = {
             position: 'left',
             label: 'Gameservers',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },  
         ],
       },
             footer: {
@@ -120,6 +124,16 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+    i18n: {
+      defaultLocale: 'es',
+      locales: ['es', 'en'],
+      localeConfigs: {
+        es: {
+          htmlLang: 'es-ES',
+        },
+      },
+    },
+  
+  };
 
 module.exports = config;
