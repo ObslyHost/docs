@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Facil y Rápido',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/bolt-thunder-svgrepo-com.svg').default,
     description: (
       <>
         Encuentra lo que necesitas rápida y eficazmente en esta página de documentación.
@@ -15,19 +15,19 @@ const FeatureList = [
   },
   {
     title: 'Funciones Específicas',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/options-svgrepo-com.svg').default,
     description: (
       <>
-        Documentate sobre funciones específicas y propias que solo Obsly Host posee.
+        Documentate sobre funcionalidades y servicios especiales que solo Obsly Host ofrece.
       </>
     ),
   },
   {
     title: 'Ayuda Extra',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/support-svgrepo-com.svg').default,
     description: (
       <>
-        Necesitas ayuda extra? Entra a nuestro servidor de <Link href="https://discord.obsly.host">discord</Link> y 
+        Necesitas más ayuda? Entra a nuestro servidor de <Link href="https://discord.obsly.host">discord</Link> y 
         resuelve tus dudas con la comunidad o el staff!
 
       </>
