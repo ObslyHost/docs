@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Docs Obsly Host',
-  tagline: 'Dinosaurs are cool',
+  tagline: '',
   url: 'https://docs.obsly.host',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -49,6 +49,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
