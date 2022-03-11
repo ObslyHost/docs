@@ -1,35 +1,35 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Facil y Rápido',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Encuentra lo que necesitas rápida y eficazmente en esta página de documentación.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Funciones Específicas',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Documentate sobre funciones específicas y propias que solo Obsly Host posee.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Ayuda Extra',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Necesitas ayuda extra? Entra a nuestro servidor de <Link href="https://discord.obsly.host">discord</Link> y 
+        resuelve tus dudas con la comunidad o el staff!
+
       </>
     ),
   },

@@ -86,3 +86,32 @@ box-shadow: none;
 }
 
 
+
+
+
+
+
+.heroBanner_src-pages-index-module {
+  margin-top:50px
+}
+
+.buttons_src-pages-index-module {
+  margin-top:50px
+
+}
+
+
+.button--secondary:not(.button--outline) {
+  color: white;
+  background-color: #e6aa00;
+  border-width: 0px;
+
+}
+
+.button--secondary:not(.button--outline):hover {
+  color: white;
+  background-color: #ffbd00;
+  border-width: 0px;
+
+
+}
