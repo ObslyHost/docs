@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ObslyHost', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   presets: [
     [
@@ -26,6 +26,9 @@ const config = {
           routeBasePath: 'billing',
           sidebarPath: require.resolve('./sidebarsBilling.js'),
           // ... other options
+        },
+        theme: {
+          customCss: [require.resolve('./src/css/custom.css')],
         },
       },
     ],
@@ -62,12 +65,12 @@ const config = {
           {
             to: '/billing',
             position: 'left',
-            label: 'Billing',
+            label: 'Facturación',
           },
           {
             to:'/gameservers',
             position: 'left',
-            label: 'Gameservers',
+            label: 'Servidores Game',
           },
           {
             type: 'localeDropdown',
@@ -82,47 +85,47 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Billing',
+                label: 'Facturación',
                 to: '/billing',
               },
               {
-                label: 'Gameservers',
+                label: 'Servidores Game',
                 to: '/gameservers',
               },
             ],
           },
           {
-            title: 'Gameservers',
+            title: 'Sitios',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Principal',
+                href: 'https://obsly.host',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facturación',
+                href: 'https://billing.obsly.host',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Panel',
+                href: 'https://panel.obsly.host',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Recursos',
             items: [
               {
-                label: 'Blog',
-                to: '/billing',
+                label: 'Discord',
+                href: 'https://discord.obsly.host',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Estado',
+                href: 'https://status.obsly.host',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Obsly Host`,
       },
 
       prism: {
