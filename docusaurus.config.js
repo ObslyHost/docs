@@ -37,10 +37,10 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'gameservers',
-        path: 'gameservers',
-        routeBasePath: 'gameservers',
-        sidebarPath: require.resolve('./sidebarsGameservers.js'),
+        id: 'game-servers',
+        path: 'game-servers',
+        routeBasePath: 'game-servers',
+        sidebarPath: require.resolve('./sidebarsGame-servers.js'),
         // ... other options
       },
     ],
@@ -69,7 +69,7 @@ const config = {
             label: 'Facturación',
           },
           {
-            to:'/gameservers',
+            to:'/game-servers',
             position: 'left',
             label: 'Servidores Game',
           },
@@ -91,7 +91,7 @@ const config = {
               },
               {
                 label: 'Servidores Game',
-                to: '/gameservers',
+                to: '/game-servers',
               },
             ],
           },
