@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Requerimientos
 
-Docuasaurus can manage multiple versions of your docs.
+Usa estos forks
 
 ## Create a docs version
 
