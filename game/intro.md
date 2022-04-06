@@ -3,8 +3,8 @@ sidebar_position: 1
 slug: ./
 ---
 
-# **SERVICIOS DE JUEGO**
-a
+# Guía
+
 Descube todo lo que tenemos preparado para ti **en menos de 5 minutos**.
 
 ## Guía inicial

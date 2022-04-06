@@ -86,7 +86,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Facturación',
+                label: 'Billing',
                 to: '/billing',
               },
               {
