@@ -71,7 +71,7 @@ const config = {
           {
             to:'/game-servers',
             position: 'left',
-            label: 'Servidores Game',
+            label: 'Game',
           },
           {
             type: 'localeDropdown',
