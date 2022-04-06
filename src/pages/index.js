@@ -17,7 +17,7 @@ function HomepageHeader() {
         <Link
             className="button button--secondary button--lg"
             href="https://obsly.host">
-            Página principal
+            PÁGINA PRINCIPAL
           </Link>
         </div>
       </div>

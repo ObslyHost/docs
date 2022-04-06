@@ -3,11 +3,11 @@ sidebar_position: 1
 slug: ./
 ---
 
-# Inicio Servidores Game
+# **SERVICIOS DE JUEGO**
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Descube todo lo que tenemos preparado para ti **en menos de 5 minutos**.
 
-## Getting Started
+## Guía inicial
 
 Get started by **creating a new site**.
 
