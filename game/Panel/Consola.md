@@ -2,42 +2,24 @@
 sidebar_position: 1
 ---
 
-# **CONSOLA**
+# Consola
 
-Adad **Markdown or React** files to `src/pages` to create a **standalone page**:
+Una forma de ver la actividad de tu servidor es mediante la consola integrada de nuestro panel, aqui podras observar muchas cosas importantes acerca de tu servidor.
 
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
+## Tiempo de actividad
 
-## Create your first React Page
+Esta representado mediante el icono
+`insertar-icono` y nos muestra las horas, minutos y segundos que nuestro servidor lleva activo. `insertar-imagen-de-ejemplo`
 
-Create a file at `src/pages/my-react-page.js`:
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+## Uso de CPU
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+## Uso de RAM
 
-## Create your first Markdown Page
+¿Has notado que tu servidor consume más de lo que muestra? tranquilo, esto se debe a que segura estas usando Aikar Flags, estos muestran un falso positivo al momento de mandar los datos al panel.
 
-Create a file at `src/pages/my-markdown-page.md`:
+## Uso de almacenamiento
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si te excedes puede que tu servidor ya no guarde los datos que se estan creando lo que podria perjudicar al progreso de tus usuarios.
