@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Create a Document
 
-Testeando este apartado
+Testeaando este apartado
 
 - a **sidebar**
 - **previous/next navigation**
