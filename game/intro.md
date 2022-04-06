@@ -3,11 +3,11 @@ sidebar_position: 1
 slug: ./
 ---
 
-# Guía
+# Intro
 
 Descube todo lo que tenemos preparado para ti **en menos de 5 minutos**.
 
-## Guía inicial
+## Guia inicial
 
 Get started by **creating a new site**.
 
