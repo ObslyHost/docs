@@ -9,7 +9,7 @@ Una forma de ver la actividad de tu servidor es mediante la consola integrada de
 ## Tiempo de actividad
 
 Esta representado mediante el icono
-`insertar-icono` y nos muestra las horas, minutos y segundos que nuestro servidor lleva activo. `insertar-imagen-de-ejemplo`
+`insertar-icon` y nos muestra las horas, minutos y segundos que nuestro servidor lleva activo. `insertar-imagen-de-ejemplo`
 
 
 ## Uso de CPU
