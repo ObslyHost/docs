@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docs Obsly Host',
+  title: 'Obsly.docs',
   tagline: '',
   url: 'https://docs.obsly.host',
   baseUrl: '/',
