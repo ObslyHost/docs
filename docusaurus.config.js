@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Obsly | Documentación',
+  title: 'Documentación',
   tagline: '',
   url: 'https://docs.obsly.host',
   baseUrl: '/',
@@ -57,9 +57,9 @@ const config = {
       },
   
       navbar: {
-        title: 'Docs Obsly Host',
+        title: 'Obsly.docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Obsly',
           src: 'img/logo.svg',
         },
         items: [
@@ -99,11 +99,11 @@ const config = {
             title: 'Sitios',
             items: [
               {
-                label: 'Principal',
+                label: 'Web',
                 href: 'https://obsly.host',
               },
               {
-                label: 'Facturación',
+                label: 'Billing',
                 href: 'https://billing.obsly.host',
               },
               {
@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Obsly Host`,
+        copyright: `© ${new Date().getFullYear()} Obsly.host`,
       },
 
       prism: {
