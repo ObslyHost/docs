@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 8
 ---
 
-# Archivos
+# Redes
 
 ## ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
