@@ -15,37 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'ObslyHost', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          // id: 'product', // omitted => default instance
-          path: 'billing',
-          routeBasePath: 'billing',
-          sidebarPath: require.resolve('./sidebarsBilling.js'),
-          // ... other options
-        },
-        theme: {
-          customCss: [require.resolve('./src/css/custom.css')],
-        },
-      },
-    ],
-  ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'game',
-        path: 'game',
-        routeBasePath: 'game',
-        sidebarPath: require.resolve('./sidebarsGame.js'),
-        // ... other options
-      },
-    ],
-  ],
-  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
