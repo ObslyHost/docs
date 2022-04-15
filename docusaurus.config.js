@@ -62,17 +62,19 @@ const config = {
         },
         items: [
           {
-            to:'game',
-            position: 'left',
-            label: 'Game',
+            label: "✨ Game",
+            position: "left",
+            to: "/game",
+            exact: true,
           },
           {
-            to:'panel',
-            position: 'left',
-            label: 'Panel',
+            label: "✨ Panel",
+            position: "left",
+            to: "/panel",
+            exact: true,
           },
           {
-            to: '/billing',
+            to: 'billing',
             position: 'left',
             label: 'Billing',
           },
@@ -90,11 +92,11 @@ const config = {
             items: [
               {
                 label: 'Game',
-                to: '/game',
+                to: 'game',
               },
               {
                 label: 'Panel',
-                to: '/panel',
+                to: 'panel',
               },
               {
                 label: 'Billing',
