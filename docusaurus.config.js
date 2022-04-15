@@ -67,9 +67,10 @@ const config = {
             label: 'Game',
           },
           {
-            to:'/beepanel',
+            type: 'doc',
             position: 'left',
-            label: 'BeePanel',
+            docId: 'panel',
+            label: 'Panel',
           },
           {
             to: '/billing',
