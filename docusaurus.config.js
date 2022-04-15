@@ -62,14 +62,19 @@ const config = {
         },
         items: [
           {
-            to: '/billing',
+            to:'/game',
             position: 'left',
-            label: 'Billing',
+            label: 'Game',
           },
           {
             to:'/beepanel',
             position: 'left',
             label: 'BeePanel',
+          },
+          {
+            to: '/billing',
+            position: 'left',
+            label: 'Billing',
           },
           {
             type: 'localeDropdown',
@@ -84,12 +89,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Billing',
-                to: '/billing',
+                label: 'Game',
+                to: '/game',
               },
               {
                 label: 'BeePanel',
                 to: '/beepanel',
+              },
+              {
+                label: 'Billing',
+                to: '/billing',
               },
             ],
           },
