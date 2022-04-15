@@ -10,7 +10,7 @@ const config = {
   tagline: '',
   url: 'https://docs.obsly.host',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'ObslyHost', // Usually your GitHub org/user name.
@@ -55,7 +55,7 @@ const config = {
       },
   
       navbar: {
-        title: 'Obsly.docs',
+        title: 'OBSLY.DOCS',
         logo: {
           alt: 'Obsly',
           src: 'img/favicon.ico',
