@@ -43,13 +43,6 @@ const config = {
         sidebarPath: require.resolve('./sidebarsGame.js'),
         // ... other options
       },
-      {
-        id: 'beepanel',
-        path: 'beepanel',
-        routeBasePath: 'beepanel',
-        sidebarPath: require.resolve('./sidebarsBeePanel.js'),
-        // ... other options
-      },
     ],
   ],
   
