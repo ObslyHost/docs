@@ -36,9 +36,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'game',
-        path: 'game',
-        routeBasePath: 'game',
+        id: 'beepanel',
+        path: 'beepanel',
+        routeBasePath: 'beepanel',
         sidebarPath: require.resolve('./sidebarsGame.js'),
         // ... other options
       },
@@ -67,9 +67,9 @@ const config = {
             label: 'Billing',
           },
           {
-            to:'/game',
+            to:'/beepanel',
             position: 'left',
-            label: 'Game',
+            label: 'BeePanel',
           },
           {
             type: 'localeDropdown',
@@ -88,8 +88,8 @@ const config = {
                 to: '/billing',
               },
               {
-                label: 'Game',
-                to: '/Game',
+                label: 'BeePanel',
+                to: '/beepanel',
               },
             ],
           },
