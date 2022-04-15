@@ -21,9 +21,9 @@ const config = {
       {
         docs: {
           // id: 'product', // omitted => default instance
-          path: 'billing',
-          routeBasePath: 'billing',
-          sidebarPath: require.resolve('./sidebarsBilling.js'),
+          path: 'panel',
+          routeBasePath: 'panel',
+          sidebarPath: require.resolve('./sidebarsPanel.js'),
           // ... other options
         },
         theme: {
