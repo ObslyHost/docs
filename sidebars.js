@@ -6,11 +6,11 @@ module.exports = {
       collapsible: true,
       collapsed: false,
       items: [
-        'console',
+        'intro',
         {
           type: 'category',
           label: 'Guia consola',
-          items: ['settings', 'network'],
+          items: ['tutorial-basics/congratulations', 'tutorial-basics/create-a-blog-post'],
         },
       ],
     },
