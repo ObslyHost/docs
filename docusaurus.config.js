@@ -21,9 +21,9 @@ const config = {
       {
         docs: {
           // id: 'product', // omitted => default instance
-          path: 'panel',
-          routeBasePath: 'panel',
-          sidebarPath: require.resolve('./sidebarsPanel.js'),
+          path: 'billing',
+          routeBasePath: 'billing',
+          sidebarPath: require.resolve('./sidebarsBilling.js'),
           // ... other options
         },
         theme: {
@@ -36,10 +36,10 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'panel',
-        path: 'panel',
-        routeBasePath: 'panel',
-        sidebarPath: require.resolve('./sidebarsPanel.js'),
+        id: 'game',
+        path: 'game',
+        routeBasePath: 'game',
+        sidebarPath: require.resolve('./sidebarsGame.js'),
         // ... other options
       },
     ],
@@ -67,9 +67,9 @@ const config = {
             label: 'Billing',
           },
           {
-            to:'/panel',
+            to:'/game',
             position: 'left',
-            label: 'Panel',
+            label: 'Game',
           },
           {
             type: 'localeDropdown',
@@ -86,6 +86,10 @@ const config = {
               {
                 label: 'Billing',
                 to: '/billing',
+              },
+              {
+                label: 'Game',
+                to: '/Game',
               },
             ],
           },
