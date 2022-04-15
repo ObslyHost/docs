@@ -87,10 +87,6 @@ const config = {
                 label: 'Billing',
                 to: '/billing',
               },
-              {
-                label: 'BeePanel',
-                to: '/beepanel',
-              },
             ],
           },
           {
@@ -142,11 +138,11 @@ const config = {
           direction: 'ltr',
           htmlLang: 'es-ES',
         },
-        en: {
+/*         en: {
           label: 'English',
           direction: 'ltr',
           htmlLang: 'en-US',
-        },
+        }, */
       },
     },
     
