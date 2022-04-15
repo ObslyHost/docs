@@ -36,10 +36,10 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'beepanel',
-        path: 'beepanel',
-        routeBasePath: 'beepanel',
-        sidebarPath: require.resolve('./sidebarsBeePanel.js'),
+        id: 'panel',
+        path: 'panel',
+        routeBasePath: 'panel',
+        sidebarPath: require.resolve('./sidebarsPanel.js'),
         // ... other options
       },
     ],
@@ -67,9 +67,9 @@ const config = {
             label: 'Billing',
           },
           {
-            to:'/beepanel',
+            to:'/panel',
             position: 'left',
-            label: 'BeePanel',
+            label: 'Panel',
           },
           {
             type: 'localeDropdown',
