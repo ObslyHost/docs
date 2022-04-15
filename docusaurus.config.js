@@ -23,7 +23,7 @@ const config = {
           // id: 'product', // omitted => default instance
           path: 'billing',
           routeBasePath: 'billing',
-          sidebarPath: require.resolve('./sidebarsBilling.js'),
+          sidebarPath: require.resolve('./sidebars.js'),
           // ... other options
         },
         theme: {
@@ -39,7 +39,7 @@ const config = {
         id: 'beepanel',
         path: 'beepanel',
         routeBasePath: 'beepanel',
-        sidebarPath: require.resolve('./sidebarsGame.js'),
+        sidebarPath: require.resolve('./sidebars.js'),
         // ... other options
       },
     ],
