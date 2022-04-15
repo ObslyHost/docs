@@ -10,8 +10,8 @@ const config = {
   tagline: '',
   url: 'https://docs.obsly.host',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'log',
+  onBrokenMarkdownLinks: 'log',
   favicon: 'img/favicon.ico',
   organizationName: 'ObslyHost', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
