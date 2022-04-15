@@ -67,9 +67,8 @@ const config = {
             label: 'Game',
           },
           {
-            type: 'doc',
+            to:'panel',
             position: 'left',
-            docId: 'panel',
             label: 'Panel',
           },
           {
