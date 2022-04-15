@@ -6,11 +6,11 @@ module.exports = {
       collapsible: true,
       collapsed: false,
       items: [
-        'creating-pages',
+        'console',
         {
           type: 'category',
-          label: 'Games',
-          items: ['gtav', 'minecraft'],
+          label: 'Guia consola',
+          items: ['settings', 'network'],
         },
       ],
     },
