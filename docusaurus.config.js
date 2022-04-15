@@ -62,7 +62,7 @@ const config = {
         },
         items: [
           {
-            to:'/game',
+            to:'game',
             position: 'left',
             label: 'Game',
           },
@@ -93,8 +93,8 @@ const config = {
                 to: '/game',
               },
               {
-                label: 'BeePanel',
-                to: '/beepanel',
+                label: 'Panel',
+                to: '/panel',
               },
               {
                 label: 'Billing',
