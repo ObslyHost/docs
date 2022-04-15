@@ -36,9 +36,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'beepanel',
-        path: 'beepanel',
-        routeBasePath: 'beepanel',
+        id: 'panel',
+        path: 'panel',
+        routeBasePath: 'panel',
         sidebarPath: require.resolve('./sidebars.js'),
         // ... other options
       },
