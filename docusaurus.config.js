@@ -69,6 +69,11 @@ const config = {
             label: 'Billing',
           },
           {
+            to:'/beepanel',
+            position: 'left',
+            label: 'BeePanel',
+          },
+          {
             to:'/game',
             position: 'left',
             label: 'Game',
@@ -88,6 +93,10 @@ const config = {
               {
                 label: 'Billing',
                 to: '/billing',
+              },
+              {
+                label: 'BeePanel',
+                to: '/beepanel',
               },
               {
                 label: 'Game',
