@@ -43,9 +43,6 @@ const config = {
         sidebarPath: require.resolve('./sidebarsGame.js'),
         // ... other options
       },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
       {
         id: 'beepanel',
         path: 'beepanel',
@@ -70,7 +67,7 @@ const config = {
         title: 'Obsly.docs',
         logo: {
           alt: 'Obsly',
-          src: 'img/logo.svg',
+          src: 'img/favicon.ico',
         },
         items: [
           {
