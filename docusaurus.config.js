@@ -44,6 +44,16 @@ const config = {
         // ... other options
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'beepanel',
+        path: 'beepanel',
+        routeBasePath: 'beepanel',
+        sidebarPath: require.resolve('./sidebarsBeePanel.js'),
+        // ... other options
+      },
+    ],
   ],
   
   themeConfig:
