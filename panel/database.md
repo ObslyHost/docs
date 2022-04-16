@@ -14,12 +14,12 @@ Primero necesites ir al apartado de base datos, ahi encontrarás un boton
 
 ![Database New](/img/database_new.png)
 
-### ─ Nombre
+### 1 ─ Nombre
 Aqui escogeremos un identificador para reconocer nuestra base de datos.
 
 ![Database New Panel](/img/database_new_panel.png)
 
-### ─ Conexiones
+### 2 ─ Conexiones
 Si queremos aceptar conexiones desde una direccion ip especifica (Más seguridad) o la dejamos accesible a cualquiera que tenga los datos de acceso. (Default)
 
 ![Database New Panel](/img/database_new_panel.png)
