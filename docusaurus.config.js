@@ -43,16 +43,6 @@ const config = {
         // ... other options
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'game',
-        path: 'game',
-        routeBasePath: 'game',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // ... other options
-      },
-    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
