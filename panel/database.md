@@ -3,31 +3,23 @@ sidebar_position: 3
 ---
 
 # Bases de datos
+:::info Definición
 
-## ─ Actividad
-Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
-
-![Activity](/img/activity.png)
-
-
-## ─  Uso de CPU
-Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
-
-![CPU](/img/cpu.png)
-
-## ─ Memoria RAM
-Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
-
-:::tip ¿Alto consumo?
-
-¿Has notado que tu servidor consume más de lo que muestra? tranquilo, esto se debe a que seguro estas usando Aikar Flags, estos muestran un falso positivo al momento de mandar los datos al panel.
+Una base de datos te ayudará a tener los datos que manejes accesibles para más aplicaciones, y con tu plan contratado podrás usar esta funcion.
 
 :::
 
-![RAM](/img/ram.png)
+## ─ Crear una base de datos
+Primero necesites ir al apartado de base datos, ahi encontrarás un boton
 
+![Database New](/img/database_new.png)
 
-## ─  Almacenamiento SSD
-Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
+### ─ Nombre
+Aqui escogeremos un identificador para reconocer nuestra base de datos.
 
-![SSD](/img/ssd.png)
+![Database New Panel](/img/database_new_panel.png)
+
+### ─ Conexiones
+Si queremos aceptar conexiones desde una direccion ip especifica (Más seguridad) o la dejamos accesible a cualquiera que tenga los datos de acceso. (Default)
+
+![Database New Panel](/img/database_new_panel.png)
