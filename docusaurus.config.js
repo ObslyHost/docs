@@ -62,21 +62,22 @@ const config = {
         },
         items: [
           {
-            label: "✨ Game",
+            label: "🎮 Game",
             position: "left",
             to: "/game",
             exact: true,
           },
           {
-            label: "✨ Panel",
+            label: "💻 Panel",
             position: "left",
             to: "/panel",
             exact: true,
           },
           {
-            to: 'billing',
-            position: 'left',
-            label: 'Billing',
+            label: "💸 Billing",
+            position: "left",
+            to: "/billing",
+            exact: true,
           },
           {
             type: 'localeDropdown',
