@@ -70,7 +70,7 @@ const config = {
           {
             label: "💻 Panel",
             position: "left",
-            to: "/panel",
+            to: "panel",
             exact: true,
           },
           {
