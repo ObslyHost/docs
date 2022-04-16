@@ -3,31 +3,50 @@ sidebar_position: 10
 ---
 
 # Ajustes
+:::info Definición
 
-## ─ Actividad
-Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
-
-![Activity](/img/activity.png)
-
-
-## ─  Uso de CPU
-Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
-
-![CPU](/img/cpu.png)
-
-## ─ Memoria RAM
-Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
-
-:::tip ¿Alto consumo?
-
-¿Has notado que tu servidor consume más de lo que muestra? tranquilo, esto se debe a que seguro estas usando Aikar Flags, estos muestran un falso positivo al momento de mandar los datos al panel.
+Aqui observarás algunos detalles tecnicos acerca de tu servidor, algunos son modificables mientras que otros tendrás que solicitar ayuda en un ticket.
 
 :::
 
-![RAM](/img/ram.png)
+![Settings](/img/settings.png)
+
+## 1 ─ Conexión SFTP
+Una conexion `SFTP` es un `Protocolo de transferencia segura de archivos`, es usada por muchos para mover/descargar/copiar archivos de manera mas comoda y segurda, si te interesa saber más aqui te lo explico.
+
+![Settings SFTP](/img/settings_sftp.png)
 
 
-## ─  Almacenamiento SSD
-Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
+### 1.1 ─  Dirección Ip
+Para conectarnos via `SFTP` necesitaremos la dirección ip del servidor a conectar, para ello solo usaremos la de `alpha.fl-us.obsly.host` y en puerto `2022`
 
-![SSD](/img/ssd.png)
+![Settings SFTP IP](/img/settings_sftp_ip.png)
+
+### 1.2 ─  Nombre de usuario
+Lo siguiente que necesitaremos es el nombre de usuario al que vamos a conectarnos, esto tambien es visible en el panel, en este caso usaremos: `elpixis.ebf85249`
+
+![Settings SFTP User](/img/settings_sftp_user.png)
+
+### 1.3 ─  Contraseña
+La contraseña no estará disponible en el menu de ajustes, para acceder deberás usar la misma con la que inicias sesión en el panel.
+
+## 2 ─ Nombre del servidor
+Si no te sientes agusto con el nombre que tiene tu servidor actual puedes cambiarlo en este modulo, solo debes ingresar el nombre y darle a `Guardar`.
+
+![Settings Name](/img/settings_name.png)
+
+### 3. Información del hosting
+Si se te llega a solicitar alguna información del `Nodo` o `ID del servidor` las puedes encontrar aqui.
+
+![Settings Info](/img/settings_info.png)
+
+### 4. Reinstalación del servidor
+En caso necesitas una reinstalación de tu servidor puedes hacerla en este modulo.
+
+:::danger AVISO
+
+Esto podria eliminar todos los archivos antiguos, saque un respaldo de su servidor para prevenir perdidas.
+
+:::
+
+![Settings Reinstall](/img/settings_reinstall.png)

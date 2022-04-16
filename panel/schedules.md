@@ -18,7 +18,7 @@ Nos iremos al apartado de `Horarios` para crear nuestro primer horario, recuerda
 ### 1.1 ─  Nombre
 Aqui elegiremos el nombre y tiempo en el que ejecutaremos el programa, asi como unas opciones extra que puedes activar a gusto.
 
-![CPU](/img/cpu.png)
+![CPU](/img/schedules_new.png)
 
 ## 2 ─ Configurando un horario
 Una vez creado nuestro primer horario podremos visualizarlo en el panel.

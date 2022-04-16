@@ -3,31 +3,39 @@ sidebar_position: 9
 ---
 
 # Arranque
+:::info Definición
 
-## ─ Actividad
-Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
-
-![Activity](/img/activity.png)
-
-
-## ─  Uso de CPU
-Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
-
-![CPU](/img/cpu.png)
-
-## ─ Memoria RAM
-Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
-
-:::tip ¿Alto consumo?
-
-¿Has notado que tu servidor consume más de lo que muestra? tranquilo, esto se debe a que seguro estas usando Aikar Flags, estos muestran un falso positivo al momento de mandar los datos al panel.
+Aqui observarás los comando de arranque, version de java y variables con las que tu servidor inicia.
 
 :::
 
-![RAM](/img/ram.png)
+## 1 ─ Comando de inicio
+Este es el comando con el que se ejecuta tu servidor, si requieres de parametros adicionales debes contactarnos mediante un ticket de soporte.
+
+![Startup Command](/img/startup_command.png)
 
 
-## ─  Almacenamiento SSD
-Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
+## 2 ─ Version de java
+Si deseas cambiar la version de Java del servidor solo usa el menú despegable y escoge la de tu preferencia
 
-![SSD](/img/ssd.png)
+![Startup Java](/img/startup_java.png)
+
+## 3 ─ Variables
+Son opciones extra que se modifican dependiendo de la aplicación que estes alojando, las mas comunes son las siguientes:
+
+![Startup Variables](/img/startup_variables.png)
+
+### 3.1 ─  Version
+Cambia entre la version de la aplicacion que usas.
+
+![Startup version](/img/startup_version.png)
+
+### 3.2 ─  Server File
+Es el archivo que el servidor va correr.
+
+![Startup file](/img/startup_file.png)
+
+### 3.3 ─  Build Number
+Es la versión del archivo que quieras utilizar
+
+![Startup build](/img/startup_build.png)
