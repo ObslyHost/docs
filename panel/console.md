@@ -1,9 +1,10 @@
 ---
 sidebar_position: 1
+slug: ./
 ---
 
 # Consola
-:::tip DEFINICIÓN
+:::tip Definición
 
 Una forma de ver la actividad de tu servidor en tiempo real es mediante la consola integrada de nuestro panel, aqui podras observar muchas cosas importantes acerca de tu servidor.
 
