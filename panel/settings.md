@@ -35,12 +35,12 @@ Si no te sientes agusto con el nombre que tiene tu servidor actual puedes cambia
 
 ![Settings Name](/img/settings_name.png)
 
-### 3. Información del hosting
+## 3. Información del hosting
 Si se te llega a solicitar alguna información del `Nodo` o `ID del servidor` las puedes encontrar aqui.
 
 ![Settings Info](/img/settings_info.png)
 
-### 4. Reinstalación del servidor
+## 4. Reinstalación del servidor
 En caso necesitas una reinstalación de tu servidor puedes hacerla en este modulo.
 
 :::danger AVISO

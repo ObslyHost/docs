@@ -14,7 +14,7 @@ Necesitaremos tener acceso `SFTP` o `FTP`a nuestro antiguo servicio, posteriorme
 
 :::danger AVISO
 
-Esto eliminará todos los archivos anteriores a la migración.
+Realizar una migración elimina todos los archivos actuales.
 
 :::
 ![Importer](/img/importer.png)
