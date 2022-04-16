@@ -3,31 +3,30 @@ sidebar_position: 4
 ---
 
 # Horarios
+:::info Definición
 
-## ─ Actividad
-Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
-
-![Activity](/img/activity.png)
-
-
-## ─  Uso de CPU
-Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
-
-![CPU](/img/cpu.png)
-
-## ─ Memoria RAM
-Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
-
-:::tip ¿Alto consumo?
-
-¿Has notado que tu servidor consume más de lo que muestra? tranquilo, esto se debe a que seguro estas usando Aikar Flags, estos muestran un falso positivo al momento de mandar los datos al panel.
+Si necesitas realizar acciones o ejecutar comandos en determinados horarios esta función es completamente para ti.
 
 :::
 
-![RAM](/img/ram.png)
+## 1 ─ Creando un horario.
+Nos iremos al apartado de `Horarios` para crear nuestro primer horario, recuerda que el tiempo debe ser en formato `Cronjob`.
+
+![Schedules](/img/schedules.png)
 
 
-## ─  Almacenamiento SSD
-Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
+### 1.1 ─  Nombre
+Aqui elegiremos el nombre y tiempo en el que ejecutaremos el programa, asi como unas opciones extra que puedes activar a gusto.
 
-![SSD](/img/ssd.png)
+![CPU](/img/cpu.png)
+
+## 2 ─ Configurando un horario
+Una vez creado nuestro primer horario podremos visualizarlo en el panel.
+
+![Schedules Dashboard](/img/schedules_dashboard.png)
+![Schedules Dashboard](/img/schedules_dashboard_2.png)
+
+### 2.1 ─  Nueva tarea
+Para crear una nueva tarea tendremso multiples opciones que se ajustan a nuestra necesidad, escoge la mas adecuada a la tuya.
+
+![Schedules Work](/img/schedules_work.png)

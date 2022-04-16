@@ -10,18 +10,18 @@ Una forma de ver la actividad de tu servidor en tiempo real es mediante la conso
 
 :::
 
-## ─ Actividad
+## 1 ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
 
 ![Activity](/img/activity.png)
 
 
-## ─  Uso de CPU
+## 2 ─  Uso de CPU
 Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
 
 ![CPU](/img/cpu.png)
 
-## ─ Memoria RAM
+## 3 ─ Memoria RAM
 Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
 
 :::tip ¿Alto consumo?
