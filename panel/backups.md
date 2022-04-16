@@ -3,31 +3,28 @@ sidebar_position: 6
 ---
 
 # Respaldos
+:::info Definición
 
-## ─ Actividad
-Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
-
-![Activity](/img/activity.png)
-
-
-## ─  Uso de CPU
-Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
-
-![CPU](/img/cpu.png)
-
-## ─ Memoria RAM
-Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
-
-:::tip ¿Alto consumo?
-
-¿Has notado que tu servidor consume más de lo que muestra? tranquilo, esto se debe a que seguro estas usando Aikar Flags, estos muestran un falso positivo al momento de mandar los datos al panel.
+Siempre es mejor tener un respaldo de cualquier proyecto, asi evitas malos sabores de boca, y en Obsly lo entendemos, es por eso que nuestros planes incluyen respaldos gratuitos.
 
 :::
 
-![RAM](/img/ram.png)
+## 1 ─ Creando un respaldo.
+Nos iremos al apartado de `Respaldos` para crear nuestro primer respaldo.
+
+![Backups](/img/backups.png)
 
 
-## ─  Almacenamiento SSD
-Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
+### 1.1 ─  Nombre y directorios
+Lo primero que haremos será añadir el email del usuario para que esté pueda tener acceso al servidor.
 
-![SSD](/img/ssd.png)
+![Backups New](/img/backups_new.png)
+
+Una vez le demos al boton iniciar, notaremos que el respaldo se esta creando.
+
+![Backups Loading](/img/backups_loading.png)
+
+### 1.2 ─  Administrar nuestro respaldo
+Para gestionar el respaldo que sacamos tenemos unas opciones disponibles en `•••`, de las cuales son:
+
+![Backups Options](/img/backups_options.png)
