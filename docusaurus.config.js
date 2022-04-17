@@ -36,12 +36,18 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'panel',
-        path: 'panel',
-        routeBasePath: 'panel',
+        id: 'bee-panel',
+        path: 'bee-panel',
+        routeBasePath: 'bee-panel',
         sidebarPath: require.resolve('./sidebars.js'),
         // ... other options
       },
+      {
+        id: 'games',
+        path: 'games',
+        routeBasePath: 'games',
+        sidebarPath: require.resolve('./sidebar.js'),
+      }
     ],
   ],
   themeConfig:
@@ -62,21 +68,21 @@ const config = {
         },
         items: [
           {
-            label: "🎮 Game",
-            position: "left",
-            to: "/game",
-            exact: true,
-          },
-          {
-            label: "💻 Panel",
+            label: "💻 BeePanel",
             position: "left",
             to: "panel",
             exact: true,
           },
           {
-            label: "💸 Billing",
+            label: "💸 Facturación",
             position: "left",
             to: "/billing",
+            exact: true,
+          },
+          {
+            label: "🎮 Juegos",
+            position: "left",
+            to: "/games",
             exact: true,
           },
           {
