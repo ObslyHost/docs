@@ -7,8 +7,10 @@ slug: ./
 :::info Definición
 
 Una forma de ver la actividad de tu servidor en tiempo real es mediante la consola integrada de nuestro panel, aqui podras observar muchas cosas importantes acerca de tu servidor.
-
+![Image](/img/console.png)
 :::
+
+
 
 ## 1 ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
