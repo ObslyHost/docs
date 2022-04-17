@@ -36,9 +36,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'panel',
-        path: 'panel',
-        routeBasePath: 'panel',
+        id: 'bee-panel',
+        path: 'bee-panel',
+        routeBasePath: 'bee-panel',
         sidebarPath: require.resolve('./sidebars.js'),
         // ... other options
       },
@@ -70,7 +70,7 @@ const config = {
           {
             label: "💻 BeePanel",
             position: "left",
-            to: "/panel",
+            to: "/bee-panel",
             exact: true,
           },
           {
