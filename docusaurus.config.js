@@ -35,13 +35,24 @@ const config = {
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
+      
+      
       {
         id: 'bee-panel',
         path: 'bee-panel',
         routeBasePath: 'bee-panel',
         sidebarPath: require.resolve('./sidebars.js'),
-        // ... other options
       },
+      
+      {
+        id: 'games',
+        path: 'games',
+        routeBasePath: 'games',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+
+      
+      
     ],
   ],
   themeConfig:
