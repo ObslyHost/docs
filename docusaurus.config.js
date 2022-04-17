@@ -46,7 +46,7 @@ const config = {
         id: 'games',
         path: 'games',
         routeBasePath: 'games',
-        sidebarPath: require.resolve('./sidebar.js'),
+        sidebarPath: require.resolve('./sidebars.js'),
       }
     ],
   ],
