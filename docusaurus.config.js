@@ -32,34 +32,28 @@ const config = {
       },
     ],
   ],
+
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'bee-panel',
-        path: 'bee-panel',
-        routeBasePath: 'bee-panel',
+        id: 'beepanel',
+        path: 'beepanel',
+        routeBasePath: 'beepanel',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
-       {
+      {
         id: 'games',
         path: 'games',
         routeBasePath: 'games',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
-
-    
-    
-    
-    
-    
-    
-
   ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -86,7 +80,7 @@ const config = {
           {
             label: "💻 BeePanel",
             position: "left",
-            to: "/bee-panel",
+            to: "/beepanel",
             exact: true,
           },
           {
@@ -109,11 +103,11 @@ const config = {
             items: [
               {
                 label: 'Game',
-                to: 'game',
+                to: '/games',
               },
               {
                 label: 'Panel',
-                to: 'panel',
+                to: '/beepanel',
               },
               {
                 label: 'Billing',
