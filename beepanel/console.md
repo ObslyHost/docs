@@ -9,7 +9,7 @@ slug: ./
 ![Image](/img/console.png)
 :::
 
-## ─ Acceso
+## Acceso
 Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicaremos la categoria `Consola`, al darle click accederemos a todas las caracteristicas de esta función.
 
 ![Image](/img/console.access.png)
