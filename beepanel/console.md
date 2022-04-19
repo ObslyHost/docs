@@ -15,7 +15,7 @@ Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicar
 ## 1 ─ Servidor
 Nos da información del nombre y dirección ip de nuestro servidor.
 ### 1.1 ─ Nombre
-En caso el nombre de nuestro servidor haya cambiado o esté incorrecto podemos modificarlo desde [Cambiar nombre del servidor](/files).
+En caso el nombre de nuestro servidor haya cambiado o esté incorrecto podemos modificarlo desde [cambiar nombre del servidor](/beepanel/files).
 ### 1.2 ─ Dirección Ip
 Este apartado es muy importante, aqui hayaremos el metodo de acceso para ingresar a nuestro servidor.
 
