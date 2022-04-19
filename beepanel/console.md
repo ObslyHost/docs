@@ -4,26 +4,26 @@ slug: ./
 ---
 
 # Consola
-:::info Definición
+:::info Una forma de ver la actividad de tu servidor en tiempo real es mediante la consola integrada de nuestro panel, aqui podras observar muchas cosas importantes acerca de tu servidor.
 
-Una forma de ver la actividad de tu servidor en tiempo real es mediante la consola integrada de nuestro panel, aqui podras observar muchas cosas importantes acerca de tu servidor.
 ![Image](/img/console.png)
 :::
 
+## 1 ─ Acceso
+Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicaremos la categoria `Consola`, al darle click accederemos a las caracteristicas de esta función.
 
-
-## 1 ─ Actividad
+## 2 ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
 
 ![Activity](/img/activity.png)
 
 
-## 2 ─  Uso de CPU
+## 3 ─  Uso de CPU
 Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
 
 ![CPU](/img/cpu.png)
 
-## 3 ─ Memoria RAM
+## 4 ─ Memoria RAM
 Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
 
 :::tip ¿Alto consumo?
@@ -35,7 +35,7 @@ Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cos
 ![RAM](/img/ram.png)
 
 
-## ─  Almacenamiento SSD
+## 5 ─  Almacenamiento SSD
 Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
 
 ![SSD](/img/ssd.png)
