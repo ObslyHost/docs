@@ -10,10 +10,14 @@ slug: ./
 :::
 
 ## ─ Acceso
-Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicaremos la categoria `Consola`, al darle click accederemos a las caracteristicas de esta función.
+Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicaremos la categoria `Consola`, al darle click accederemos a todas las caracteristicas de esta función.
 
 ## 1 ─ Servidor
-Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
+Nos da información del nombre y dirección ip de nuestro servidor.
+### 1.1 ─ Nombre
+En caso el nombre de nuestro servidor haya cambiado o esté incorrecto podemos modificarlo desde [Cambiar nombre del servidor](/files).
+### 1.2 ─ Dirección Ip
+Este apartado es muy importante, aqui hayaremos el metodo de acceso para ingresar a nuestro servidor.
 
 ## 2 ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
