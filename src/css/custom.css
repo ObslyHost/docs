@@ -29,9 +29,9 @@
   --ifm-color-primary-light: #fb9000;
   --ifm-color-primary-lighter: #fb9000;
   --ifm-color-primary-lightest: #fb9000;
-  --ifm-background-color: #ff0000 !important;
-  --ifm-background-surface-color: #00fd00 !important;
-  --ifm-toc-border-color: #eeff00 !important;
+  --ifm-background-color: #0b0c1b !important;
+  --ifm-background-surface-color: #1a1b2e !important;
+  --ifm-toc-border-color: #3b3e69 !important;
 }
 
 .navbar {
