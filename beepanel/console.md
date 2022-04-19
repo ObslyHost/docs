@@ -4,7 +4,7 @@ slug: ./
 ---
 
 # Consola
-:::info Una forma de ver la actividad de tu servidor en tiempo real es mediante la consola integrada de nuestro panel, aqui podras observar muchas cosas importantes acerca de tu servidor.
+:::info CARACTERISTICAS
 
 ![Image](/img/console.png)
 :::
@@ -12,8 +12,13 @@ slug: ./
 ## ─ Acceso
 Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicaremos la categoria `Consola`, al darle click accederemos a todas las caracteristicas de esta función.
 
+![Image](/img/access.png)
+
 ## 1 ─ Servidor
 Nos da información del nombre y dirección ip de nuestro servidor.
+
+![Image](/img/server.png)
+
 ### 1.1 ─ Nombre
 En caso el nombre de nuestro servidor haya cambiado o esté incorrecto podemos modificarlo desde [cambiar nombre del servidor](/beepanel/files).
 ### 1.2 ─ Dirección Ip
