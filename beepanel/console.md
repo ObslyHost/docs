@@ -12,12 +12,12 @@ slug: ./
 ## ─ Acceso
 Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicaremos la categoria `Consola`, al darle click accederemos a todas las caracteristicas de esta función.
 
-![Image](/img/access.png)
+![Image](/img/console.access.png)
 
 ## 1 ─ Servidor
 Nos da información del nombre y dirección ip de nuestro servidor.
 
-![Image](/img/server.png)
+![Image](/img/console.server.png)
 
 ### 1.1 ─ Nombre
 En caso el nombre de nuestro servidor haya cambiado o esté incorrecto podemos modificarlo desde [cambiar nombre del servidor](/beepanel/files).
@@ -27,7 +27,7 @@ Este apartado es muy importante, aqui hayaremos el metodo de acceso para ingresa
 ## 2 ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
 
-![Image](/img/activity.png)
+![Image](/img/console.activity.png)
 
 
 ## 3 ─  CPU
