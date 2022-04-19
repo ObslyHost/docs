@@ -15,7 +15,7 @@ Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicar
 ![Image](/img/console.access.png)
 
 ## 1 ─ Servidor
-Nos da información del nombre y dirección ip de nuestro servidor.
+Nos da información del [nombre](/beepanel/#11--nombre) y [dirección ip](/beepanel/#12--dirección-ip) de nuestro servidor.
 
 ![Image](/img/console.server.png)
 
