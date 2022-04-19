@@ -9,21 +9,21 @@ slug: ./
 ![Image](/img/console.png)
 :::
 
-## 1 ─ Acceso
+## ─ Acceso
 Necesitamos dirigirnos a la barra lateral izquierda de nuestro panel, ahi ubicaremos la categoria `Consola`, al darle click accederemos a las caracteristicas de esta función.
 
-## 2 ─ Actividad
+## 1 ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
 
 ![Activity](/img/activity.png)
 
 
-## 3 ─  Uso de CPU
+## 2 ─  Uso de CPU
 Una forma importante de ver el consumo de tu servidor es mediante el CPU, que esta representado en `Cantidad de hilos` x `100%`.
 
 ![CPU](/img/cpu.png)
 
-## 4 ─ Memoria RAM
+## 3 ─ Memoria RAM
 Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cosas y tenga acceso a ellas lo mas pronto posible, es por ello que ofrecemos planes con la cantidad adecuada para cada necesidad.
 
 :::tip ¿Alto consumo?
@@ -35,7 +35,7 @@ Una buena cantidad de RAM es importante si deseas que tu servidor guarde mas cos
 ![RAM](/img/ram.png)
 
 
-## 5 ─  Almacenamiento SSD
+## 4 ─  Almacenamiento SSD
 Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
 
 ![SSD](/img/ssd.png)
