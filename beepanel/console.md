@@ -46,4 +46,4 @@ Es importante estar pendientes de la cantidad de espacio disponible con el que c
 ## 6 ─  Terminal
 Es importante estar pendientes de la cantidad de espacio disponible con el que cuentes, ya que si lo excedes puede que tu servidor ya no guarde nuevos datos.
 
-![Image](/img/terminal.png)
+![Image](/img/ssd.png)
