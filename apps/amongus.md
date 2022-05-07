@@ -2,6 +2,6 @@
 sidebar_position: 8
 ---
 
-# Grand Theft Auto
+# AmongUs Server
 
 ## 1 ─ Building...

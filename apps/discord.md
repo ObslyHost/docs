@@ -1,7 +1,7 @@
 ---
-sidebar_position: 8
+sidebar_position: 6
 ---
 
-# Discord
+# Discord Bots
 
 ## 1 ─ Building...

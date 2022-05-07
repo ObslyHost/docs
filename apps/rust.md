@@ -1,7 +1,7 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 ---
 
-# Grand Theft Auto
+# Rust Server
 
 ## 1 ─ Building...
