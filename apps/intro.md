@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: ./
 ---
 
-# Que es BeePanel
+# Aplicaciones
 ¡Oa, bienvenido a los documentos de **Obsly.host**! aqui aprenderás un poco más acerca de nuestros servicios.
 
 

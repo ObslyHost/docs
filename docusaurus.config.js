@@ -46,9 +46,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'games',
-        path: 'games',
-        routeBasePath: 'games',
+        id: 'apps',
+        path: 'apps',
+        routeBasePath: 'apps',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
@@ -72,13 +72,13 @@ const config = {
         },
         items: [
           {
-            label: "🎮 Aplicaciones",
+            label: "📦 Apps",
             position: "left",
-            to: "/games",
+            to: "/apps",
             exact: true,
           },
           {
-            label: "💸 Facturación",
+            label: "💳 Billing",
             position: "left",
             to: "/billing",
             exact: true,
@@ -102,16 +102,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Game',
-                to: '/games',
-              },
-              {
-                label: 'Panel',
-                to: '/beepanel',
+                label: 'Apps',
+                to: '/apps',
               },
               {
                 label: 'Billing',
                 to: '/billing',
+              },
+              {
+                label: 'BeePanel',
+                to: '/beepanel',
               },
             ],
           },

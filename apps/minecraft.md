@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 2
 ---
 
-# Respaldos
+# Minecraft
 
 ## ─ Actividad
 Nos muestra el estado y tiempo de actividad de nuestro servidor (en horas, minutos y segundos.)
