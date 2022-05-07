@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Minecraft
-- Minecraft es un videojuego de construcción de tipo «mundo abierto» o sandbox creado originalmente por Markus Persson, ​y posteriormente desarrollado por Mojang Studios.​
+Minecraft es un videojuego de construcción de tipo mundo abierto, creado originalmente por Markus Persson, ​y posteriormente desarrollado por Mojang Studios.​
 
 ## 1 ─ Java o Bedrock
 - Al crear un servidor nos encontraremos con el dilema de hacia que publico dirigirnos, para hacertelo mas sencillo te colocamos las plataformas en las que se encuentra disponible cada uno:
