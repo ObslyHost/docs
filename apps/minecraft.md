@@ -11,7 +11,7 @@ Minecraft es un videojuego de construcción de tipo mundo abierto, creado origin
     - **Minecraft Bedrock** se encuentra en **Android, Xbox Games y iOS**.
 
 ## 2 ─ Requisitos minimos
-- Aqui encontraremos los requisitos minimos para correr nuestro servidor de juego.
+- Aqui encontraremos los requisitos minimos para correr nuestro propio servidor de minecraft, manteniendo siempre una experiencia libre de lag.
 
 ### 2.1 ─ Minecraft Java
 - Requisitos minimos para ejecutar un servidor con **+10 personas** en la version 1.12.2 en adelante:
