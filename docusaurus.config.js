@@ -72,21 +72,21 @@ const config = {
         },
         items: [
           {
-            label: "🎮 Juegos",
+            label: "🎮 Aplicaciones",
             position: "left",
             to: "/games",
-            exact: true,
-          },
-          {
-            label: "💻 BeePanel",
-            position: "left",
-            to: "/beepanel",
             exact: true,
           },
           {
             label: "💸 Facturación",
             position: "left",
             to: "/billing",
+            exact: true,
+          },
+          {
+            label: "💻 BeePanel",
+            position: "left",
+            to: "/beepanel",
             exact: true,
           },
           {
