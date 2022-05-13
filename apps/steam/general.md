@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Steam Games
+# General
 Todos conocemos los juegos que se encuentran disponibles en steam, la gran mayoria de ellos permiten que los propios usuarios creen sus servidores para jugar con amigos o diversas personas del mundo.
 
 ## 1 ─ Requisitos minimos
