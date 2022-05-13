@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Databases
+# Redis
 Una base de datos es importante para mantener nuestros datos sincronizados en multiples dispostivos, o acceder a ellas en la nube, entre las bases de datos que estan disponibles en el **Obsly** tenemos:
 
 ## 1 ─ MongoDB

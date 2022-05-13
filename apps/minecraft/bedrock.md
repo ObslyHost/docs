@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Minecraft
+# Bedrock
 Minecraft es un videojuego de construcción de tipo mundo abierto, creado originalmente por Markus Persson, ​y posteriormente desarrollado por Mojang Studios.​
 
 ## 1 ─ Java o Bedrock
